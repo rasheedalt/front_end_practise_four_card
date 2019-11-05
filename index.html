@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/mystyle.css"> -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">	
+
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <style>
+    body{
+      background-color: rgb(247, 246, 242);
+    }
+    .card{
+      transition: all 0.2s;
+    }
+    .card:hover{
+      transform: translateY(-3px);
+    }
+   
+    @media(min-width: 769px){
+      .up{
+      transform: translateY(-100px);
+      }
+      .up:hover{
+      transform: translateY(-103px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row justify-content-center mt-5" style="margin-bottom: 100px;">
+      <div class="col text-center">
+        <p class="lead mb-0">Reliable, efficient delivery</p>
+        <p class="font-weight-bold mb-0">Powered by Technology</p>
+        <p class="small">Our artificial intelligece powered tools use millions of project data <br> 
+          to ensure that your project is successful</p>
+      </div>
+    </div>
+
+    <div class="container" >
+      <div class="row">
+        <!-- card -->
+        <div class="col-md-4 mb-4"  >
+          <div class="card shadow" style="border-top: 4px solid rgb(15, 199, 107);" style="margin-bottom: 100px;" >
+            <div class="card-body" >
+              <p class="font-weight-bold text-left">Supervisor</p>
+              <p class="small text-left">Monitor activites to identify project<br> roadblocks</p>
+                  <i class="fa fa-user fa-2x float-right"></i>
+            </div>
+          </div>
+        </div>
+        <!-- end of card -->
+         <!-- card -->
+         <div class="col-md-4 mb-4 flex-column" >
+          <div class="row justify-content-between">
+            <!-- col-1 -->
+            <div class="col-12 mb-4">
+                <div class="card shadow up" style="border-top: 4px solid rgb(223, 84, 19);" >
+                    <div class="card-body" >
+                      <p class="font-weight-bold text-left">Team Builder</p>
+                      <p class="small text-left">Monitor activites to identify project<br> roadblocks</p>
+                        <i class="fa fa-user fa-2x float-right"></i>
+                    </div>
+                  </div>
+            </div>
+            <!-- end of col 1 -->
+
+            <!-- col-1 -->
+            <div class="col-12">
+                <div class="card shadow up" style="border-top: 4px solid blue;" >
+                    <div class="card-body" >
+                      <p class="font-weight-bold text-left">Karma</p>
+                      <p class="small text-left">Monitor activites to identify project<br> roadblocks</p>
+                        <i class="fa fa-user fa-2x float-right"></i>
+                    </div>
+                  </div>
+            </div>
+            <!-- end of col 1 -->
+
+          </div>
+          </div>
+          <!-- end of card -->
+        
+         <!-- card -->
+         <div class="col-md-4" >
+            <div class="card shadow" style="border-top: 4px solid rgb(230, 226, 10);" >
+              <div class="card-body " >
+                <p class="font-weight-bold text-left">Calculator</p>
+                <p class="small text-left">Monitor activites to identify project<br> roadblocks</p>
+                <i class="fa fa-user fa-2x float-right"></i>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+      </div>
+    </div>
+  </div>
+ 
+  <footer >
+    <p class="text-center ">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Rasheed Raji</a>.
+    </p>
+  </footer>
+</body>
+</html>

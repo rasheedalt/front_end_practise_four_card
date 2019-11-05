@@ -1,0 +1,60 @@
+body{
+	 font-family: 'Montserrat', sans-serif;
+	 background-color: #eee;
+	 /* margin: 0;
+	 padding: 0; */
+	
+}
+
+#app{
+	padding-bottom: 50px;	
+	width: 100vw;
+}
+.round{
+	border-radius: 17px;
+}
+
+.buttn{
+	background-color: black;
+	transition: all .2s;
+	border: none;
+}
+
+.buttn:hover {
+	background-color: brown;
+	transform: translateY(-2px);
+	border: none;
+	box-shadow: none;	
+}
+
+.buttn:focus {
+	border: none;
+	box-shadow: none;
+}
+
+.sinput{
+ background: transparent;
+ 
+}
+
+.sinput:focus {
+	box-shadow: none;
+	border: none;
+	border-bottom: 1px solid #000000;
+}
+
+.wrap{
+	height: 100vh;
+}
+
+.valid{
+	border: 1px solid green !important;
+	box-shadow: none !important;
+}
+
+.invalid{
+	border: 1px solid red !important;
+	box-shadow: none !important;
+
+}
+
